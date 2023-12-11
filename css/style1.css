@@ -1,0 +1,101 @@
+*{
+    background-color: #569899;
+}
+
+
+
+.inicio{
+
+    border: solid;
+    background-color: #F6F6F6;
+    width: 450px;
+    height: 580px;
+    border-radius: 10px;
+    
+}
+
+.inicio hr{
+    width: 75%;
+    
+}
+
+.inicio h1{
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.inicioSesion{
+    background-color: #F6F6F6;
+    margin-top: 40px;
+}
+
+.inicioSesion p{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.inicioSesion .nc{
+    margin-left: 60px;
+}
+
+.inicioSesion .e-mail{
+    margin-left: 18px;
+}
+
+.inicioSesion .pwd{
+    margin-right: 46px;
+}
+
+.inicioSesion .rc{
+    margin-left: 18px;
+}
+
+
+.inicioSesion label{
+    background-color: #F6F6F6;
+    font-size: 20px;
+    margin-left: -90px;    
+}
+
+.inicioSesion .u{
+    margin-left: -140px;
+}
+
+.inicioSesion input{
+    width: 50%;
+    height: 30px;
+    background-color: #d0e7e7;
+}
+
+
+.inicioSesion .botonEnviar{
+    background-color: #B5BBBB;
+    margin-top: 20px;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+.inicioSesion .botonEnviar:hover{
+    background-color: #26D33B;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+.inicioSesion .registroUno{
+    background-color: #F6F6F6;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+.inicioSesion .registroUno:hover{
+    background-color: #F6F6F6;
+    text-decoration: none;
+    margin-right: 30px;
+    color: aqua;
+}
+

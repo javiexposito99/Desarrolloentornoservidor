@@ -1,0 +1,93 @@
+*{
+    background-color: #569899;
+}
+
+/*Corregir error al dar el aviso de usario incorrecto se descuadra el login*/
+
+.inicio{
+
+    border: solid;
+    background-color: #F6F6F6;
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+    
+}
+
+.inicio hr{
+    width: 75%;
+    
+}
+
+.inicio h1{
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.inicioSesion{
+    background-color: #F6F6F6;
+}
+
+.inicioSesion p{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.inicioSesion label{
+    background-color: #F6F6F6;
+    font-size: 20px;
+    margin-left: -112px;    
+}
+
+.inicioSesion .u{
+    margin-left: -140px;
+}
+
+.inicioSesion input{
+    width: 50%;
+    height: 30px;
+}
+
+
+.inicioSesion .botonEnviar{
+    background-color: #B5BBBB;
+    margin-top: 20px;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+.inicioSesion .botonEnviar:hover{
+    background-color: #26D33B;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+.inicioSesion .registro{
+    background-color: #F6F6F6;
+    text-decoration: none;
+    margin-right: 40px;
+    
+}
+
+.inicioSesion .registro:hover{
+    background-color: #F6F6F6;
+    text-decoration: none;
+    margin-right: 40px;
+    color: aqua;
+}
+
+
+.error{
+    background-color:  rgb(243, 112, 112); /*PONGO EL FONDO EN AMARILLO*/
+    color: black;
+    padding: 10px;
+    width: 75%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+

@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.body {
+    background-color: #EAEBEF;
+    
+}
+
+.barra-superior {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    max-width: 600px;
+    background-color: rgb(136, 182, 190);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: rgb(245, 245, 245);
+
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 400px;
+    background-color:   rgb(245, 245, 245);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: rgb(136, 182, 190);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.buscador {
+    margin-top: 50px;
+    margin-left: 35%;
+    
+}
+
+.buscador input {
+    height: 50px;
+}
+
+.buscador button {
+    height: 50px;
+}
+
+
+
+.opciones {
+    background-color:  black;
+    width: 100%;
+    height: 440px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.opciones_cartas {
+    
+    margin: 20px 20px 20px 20px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.balonAzul img{
+    width: 330px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.balon_azul {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+
+.balon_azul h3{
+    padding-top: 20px;
+}
+
+.balon_azul a {
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+.conos img{
+    width: 310px;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.conos_conos {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+
+.conos_conos h3 {
+    padding-top: 20px;
+}
+
+.conos_conos a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.guantesBlancos img{
+    width: 310px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.guantes_blancos {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 10px;
+    
+}
+
+.guantes_blancos h3 {
+    padding-top: 20px;
+}
+
+.guantes_blancos a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.balonAmarillo img{
+    width: 220px;
+    height: 220px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.balon_amarillo {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 40px;
+    
+}
+
+.balon_amarillo h3 {
+    padding-top: 20px;
+}
+
+.balon_amarillo a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+
+.miniPorteria img{
+    width: 260px;
+    height: 330px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.mini_porteria {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: -20px;
+    
+}
+
+.mini_porteria h3 {
+    padding-top: 20px;
+}
+
+.mini_porteria a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.espinillerasNike img{
+    width: 280px;
+    height: 270px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.espinilleras_nike {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+
+.espinilleras_nike h3 {
+    padding-top: 20px;
+}
+
+.espinilleras_nike a {
+    text-decoration: none;
+    color: whitesmoke; 
+}

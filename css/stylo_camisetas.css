@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.body {
+    background-color: #EAEBEF;
+    
+}
+
+.barra-superior {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    max-width: 600px;
+    background-color: rgb(136, 182, 190);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: rgb(245, 245, 245);
+
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 400px;
+    background-color:   rgb(245, 245, 245);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: rgb(136, 182, 190);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.buscador {
+    margin-top: 50px;
+    margin-left: 35%;
+    
+}
+
+.buscador input {
+    height: 50px;
+}
+
+.buscador button {
+    height: 50px;
+}
+
+
+
+.opciones {
+    background-color:  black;
+    width: 100%;
+    height: 440px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.opciones_cartas {
+    
+    margin: 20px 20px 20px 20px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.camisetaMalaga img{
+    width: 220px;
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+.camiseta_malaga {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+
+.camiseta_malaga h3{
+    padding-top: 20px;
+}
+
+.camiseta_malaga a {
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+.camisetaUnited img{
+    width: 310px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.camiseta_united {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+
+.camiseta_united h3 {
+    padding-top: 20px;
+}
+
+.camiseta_united a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.camisetaMiami img{
+    width: 310px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.camiseta_miami {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+
+.camiseta_miami h3 {
+    padding-top: 20px;
+}
+
+.camiseta_miami a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.camisetaPsg img{
+    width: 290px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.camiseta_psg {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 40px;
+    
+}
+
+.camiseta_psg h3 {
+    padding-top: 20px;
+}
+
+.camiseta_psg a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+
+.camisetaRealsociedad img{
+    width: 240px;
+    height: 330px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.camiseta_realsociedad {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 0px;
+    
+}
+
+.camiseta_realsociedad h3 {
+    padding-top: 20px;
+}
+
+.camiseta_realsociedad a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.camisetaAtleti img{
+    width: 280px;
+    height: 270px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.camiseta_atleti {
+    background-color: red;
+    text-align: center;
+    height: 70px;
+    margin-top: 30px;
+    
+}
+
+.camiseta_atleti h3 {
+    padding-top: 20px;
+}
+
+.camiseta_atleti a {
+    text-decoration: none;
+    color: whitesmoke; 
+}
